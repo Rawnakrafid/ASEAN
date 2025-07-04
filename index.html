@@ -9,6 +9,34 @@
       font-family: Arial, sans-serif;
       background: #f4f4f4;
     }
+.summit-header {
+  background: white;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.summit-logo {
+  width: 200px;      /* Increase this value to "zoom" the image */
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.summit-title {
+  margin: 0;
+  color: #003366;
+  font-size: 1.5rem; /* Smaller font size for the title */
+  font-weight: bold;
+}
+
+.summit-location {
+  margin: 10px 0 0;
+  color: #555;
+  font-size: 1rem;   /* Smaller font size for the location */
+}
+
 
     /* Header */
     header {
@@ -132,11 +160,13 @@
   <!-- Tabs -->
 
    <!-- Summit Header Section -->
-<section style="background: white; padding: 30px 0; text-align: center; margin-top: 40px;
-                box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
-  <h2 style="margin: 0; color: #003366;">47th ASEAN Summit</h2>
-  <h3 style="margin: 10px 0 0; color: #555;">Bangladesh</h3>
+<!-- Summit Header Section -->
+<section class="summit-header">
+  <img src="ASEAN.jpeg" alt="ASEAN Bangladesh 2025 Logo" class="summit-logo">
+  <h2 class="summit-title">47th ASEAN Summit</h2>
+  <h3 class="summit-location">Bangladesh</h3>
 </section>
+
 
 
 <section class="tabs">
@@ -156,7 +186,7 @@
     </div>
     <div class="tab">
       <h3>Chairmanship</h3>
-      <a href="#">View All</a>
+      <a href="chairmanship.html">View All</a>
     </div>
     
   </section>
